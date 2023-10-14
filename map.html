@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Blurb.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="Map/mapScript.js" defer> </script>
+</head>
+
+<body>
+
+  <!-- Hero -->
+  <section class="hero is-link">
+    <img src="whiteLogo.png" width="200px" height="50px" />
+    <h2 class="subtitle">Choose Your Travel Location</h2>
+    <div>
+      <div class="field">
+        <p class="control has-icons-left">
+          </span>
+          <span class="icon is-small is-left">
+            <i class="fas fa-globe"></i>
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Maps & Markers -->
+  <section id="map">
+
+
+    <!-- France Marker -->
+    <div class="marker" id="france-marker">
+      <div class="triangle"> </div>
+      <div class="circle"> </div>
+      <div class="dot"> </div>
+
+      <div class="description hidden card">
+
+        <!-- Title -->
+        <div class="title">
+          <div class="name"> France &nbsp; <figure class="flag">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Flag_of_France_%28lighter_variant%29.svg/250px-Flag_of_France_%28lighter_variant%29.svg.png"
+                width="50px" height="30px">
+            </figure>
+          </div>
+        </div>
+
+        <!-- Buttons to learn the languages -->
+        <span class="learn">
+          <button class="button is-outlined"><a href="Languages/learnFrench.html">Learn French</a></button>
+        </span>
+      </div>
+    </div>
+
+    <!-- Spain Marker -->
+    <div class="marker" id="spain-marker">
+
+      <!-- Creates marker -->
+      <div class="triangle"> </div>
+      <div class="circle"> </div>
+      <div class="dot"> </div>
+
+      <!-- Spain Card -->
+      <div class="description hidden card">
+
+        <!-- Title -->
+        <div class="title">
+          <div class="name"> Spain &nbsp; <figure class="flag">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png"
+                width="50px" height="30px">
+            </figure>
+          </div>
+        </div>
+
+        <!-- Buttons to learn the languages -->
+        <span class="learn">
+          <button class="button is-outlined"><a href="Languages/learnSpanish.html">Learn Spanish</a></button>
+
+        </span>
+      </div>
+    </div>
+
+    <!-- Germany Marker -->
+    <div class="marker" id="germany-marker">
+
+      <!-- Creates marker -->
+      <div class="triangle"> </div>
+      <div class="circle"> </div>
+      <div class="dot"> </div>
+
+      <!-- Germany Card -->
+      <div class="description hidden card">
+
+        <!-- Title -->
+        <div class="title">
+          <div class="name"> Germany &nbsp; <figure class="flag">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+                width="50px" height="30px">
+            </figure>
+          </div>
+        </div>
+
+        <!-- Buttons to learn the languages -->
+        <span class="learn">
+          <button class="button is-outlined"><a href="Languages/learnGerman.html">Learn German</a></button>
+        </span>
+      </div>
+    </div>
+
+    <!-- Japan Marker -->
+    <div class="marker" id="japan-marker">
+
+      <!-- Creates marker -->
+      <div class="triangle"> </div>
+      <div class="circle"> </div>
+      <div class="dot"> </div>
+
+      <!-- Japan Card -->
+      <div class="description hidden card">
+
+        <!-- Title -->
+        <div class="title">
+          <div class="name"> Japan &nbsp; <figure class="flag border">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png"
+                width="50px" height="30px">
+            </figure>
+          </div>
+        </div>
+
+        <!-- Buttons to learn the languages -->
+        <span class="learn">
+          <button class="button is-outlined"><a href="Languages/learnJapanese.html">Learn Japanese</a></button>
+        </span>
+      </div>
+    </div>
+
+    <!-- South Korea Marker -->
+    <div class="marker" id="south-korea-marker">
+
+      <!-- Creates marker -->
+      <div class="triangle"> </div>
+      <div class="circle"> </div>
+      <div class="dot"> </div>
+
+      <!-- South Korea Card -->
+      <div class="description hidden card">
+
+        <!-- Title -->
+        <div class="title">
+          <div class="name"> South Korea &nbsp; <figure class="flag border">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png"
+                width="50px" height="30px">
+            </figure>
+          </div>
+        </div>
+
+        <!-- Buttons to learn the languages -->
+        <span class="learn">
+          <button class="button is-outlined"><a href="Languages/learnKorean.html">Learn Korean</a></button>
+        </span>
+      </div>
+    </div>
+    
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Blurb.</strong> by Alison Schonauer, Balkarandeep Singh, Michelle Duong, and Christopher Morales
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
